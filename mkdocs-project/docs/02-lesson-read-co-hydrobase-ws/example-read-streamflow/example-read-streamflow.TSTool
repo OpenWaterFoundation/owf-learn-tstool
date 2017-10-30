@@ -1,0 +1,6 @@
+# Simple example to read daily historical streamflow data from HyroBase web services
+# 06752000 - CACHE LA POUDRE RIV AT MO OF CN, NR FT COLLINS, CO
+06752000.DWR.Streamflow.Day~ColoradoWaterHBGuest
+# 06752260 - CACHE LA POUDRE RIVER AT FORT COLLINS, CO
+06752260.USGS.Streamflow.Day~ColoradoWaterHBGuest
+WriteDelimitedFile(OutputFile="streamflow.csv")
