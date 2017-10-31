@@ -3,7 +3,7 @@
 This documentation provides resources to learn how to to use the TSTool Software.
 TSTool is free software that provides time series analysis and workflow processing automation.
 TSTool also processes data from databases, Excel, and spatial data.
-TSTool is helpful when automating a complicated process, or repeating a process multiple times.
+TSTool is helpful when automating a complicated process or repeating a process multiple times.
 TSTool is being moved to open source licensing at which time all source code will also be available.
 
 This documentation has been written based on experience using TSTool at the Open Water Foundation (OWF),
@@ -12,6 +12,16 @@ with focus on tasks that are useful in water resources and solutions.
 **This website version of documentation is initially being created to facilitate use by Colorado State University GRAD 592 students and
 will be updated over time to convert other versions of documentation to on-line version.
 The initial version is a bare minimum version to help GRAD 592 students with their projects.**
+
+The remainder of this page contains the following sections:
+
+* [About the Open Water Foundation](#about-the-open-water-foundation)
+* [How to Use this Documentation](#how-to-use-this-documentation)
+* [License](#license)
+* [Source Repository on GitHub](#-source-repository-on-github)
+* [Release Notes](#release-notes)
+
+--------------
 
 ## About the Open Water Foundation ##
 
@@ -25,10 +35,9 @@ See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 
 The documentation is organized in order of information and tasks necessary to install TSTool and
 use TSTool software for common tasks.
-Lessons are provided to understand specific work tasks.
 
-See also the existing PDF documentation that is installed with TSTool software (use the ***Help*** menu to access),
-and other training documentation and examples in [Resources](resources).
+See also the existing PDF documentation that is installed with TSTool software (use the TSTool software ***Help*** menu to access).
+PDF documentation is available in the [Resources](resources) section.
 
 The following lessons are included in this documentation:
 

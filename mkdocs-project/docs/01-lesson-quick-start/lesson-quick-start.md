@@ -9,7 +9,7 @@ This lesson explains the basics of using TSTool software.
 ## Lesson Goal ##
 
 The goal for this lesson is to understand key TSTool concepts and create simple command files to access,
-process, and visualize data.
+process, and visualize time series data.
 
 ## Background ##
 

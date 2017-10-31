@@ -10,9 +10,13 @@
 
 mkdocs-project/site/
 
-# QGIS backup files?
-#
-*.qgs~
+# Ignore TSTool log files
+*.log
+
+# Ignore exercise output files since they will be regenerated
+# - maybe could figure out wildcard pattern
+
+mkdocs-project/docs/02-lesson-read-co-hydrobase-ws/example-read-streamflow/streamflow.csv
 
 # Office temporary files
 

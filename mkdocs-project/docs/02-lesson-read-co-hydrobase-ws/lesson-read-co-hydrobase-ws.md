@@ -1,4 +1,4 @@
-# Learn TSTool / Lesson / Read HydroBase Web Service #
+# Learn TSTool / Lesson / Read CO HydroBase Web Service #
 
 This lesson explains how to use the TSTool software to access State of Colorado HydroBase data via web services.
 
@@ -14,7 +14,8 @@ the State of Colorado's HydroBase web services.
 ## Background ##
 
 The State of Colorado's HydroBase is the core database for much of the water-related data managed by the Division of Water Resources (DWR),
-which has statutory requirements to administer water use in Colorado according to Colorado water laws.
+which administers water use in Colorado according to Colorado water laws.
+Data that are collected are managed in HydroBase and are made available to the public.
 DWR has created web services that allow software such as TSTool to query HydroBase (see:
 [Web Services documentation](http://water.state.co.us/DataMaps/WebServices/Pages/WebServices.aspx)).
 The current web services require custom software to access the data but DWR is working on a new generation of web services
@@ -63,7 +64,7 @@ Specify an output file of `streamflow.csv`.  All other parameters can be left as
 
 The files for this lesson are available in the GitHub repository:
 
-* [`example-read-streamflow.TSTool`]()
+* [`example-read-streamflow.TSTool`](https://github.com/OpenWaterFoundation/owf-learn-tstool/blob/master/mkdocs-project/docs/02-lesson-read-co-hydrobase-ws/example-read-streamflow/example-read-streamflow.TSTool)
 
 ## Next Steps ##
 

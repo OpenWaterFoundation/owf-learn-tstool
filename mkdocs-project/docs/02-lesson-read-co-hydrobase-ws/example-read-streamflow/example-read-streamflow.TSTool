@@ -1,6 +1,12 @@
-# Simple example to read daily historical streamflow data from HyroBase web services
+# Simple TSTool command file example to read daily historical streamflow data from HydroBase web services
+#
+# Step 1 - read the time series using time series identifiers (TSIDs)
+# - note that the time series have different sources:  DWR and USGS
 # 06752000 - CACHE LA POUDRE RIV AT MO OF CN, NR FT COLLINS, CO
 06752000.DWR.Streamflow.Day~ColoradoWaterHBGuest
 # 06752260 - CACHE LA POUDRE RIVER AT FORT COLLINS, CO
 06752260.USGS.Streamflow.Day~ColoradoWaterHBGuest
+#
+# Step 2 - write the time series to CSV file
+# - specify the output file using a relative path so files can be moved later
 WriteDelimitedFile(OutputFile="streamflow.csv")
