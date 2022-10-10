@@ -1,10 +1,10 @@
 # owf-learn-tstool #
 
-This repository contains the [Open Water Foundation (OWF)](http://openwaterfoundation.org/) TSTool training materials,
+This repository contains the [Open Water Foundation (OWF)](https://openwaterfoundation.org/) TSTool training materials,
 which provides guidance for using the TSTool time series processing software.
 The documentation is written for the layperson in order to encourage use of TSTool.
 
-See the deployed [OWF / Learn TSTool](http://learn.openwaterfoundation.org/owf-learn-tstool/) documentation.
+See the deployed [OWF / Learn TSTool](https://learn.openwaterfoundation.org/owf-learn-tstool/) documentation.
 
 ## Repository Contents ##
 
@@ -26,11 +26,11 @@ mkdocs-project/       (Typical MkDocs project for this documentation)
 ## Development Environment ##
 
 The development environment for contributing to this project requires installation of Python, MkDocs, and Material MkDocs theme.
-Python 2 has been used for development.  See the [OWF / Learn MkDocs](http://learn.openwaterfoundation.org/owf-learn-mkdocs/)
+Python 2 has been used for development.  See the [OWF / Learn MkDocs](https://learn.openwaterfoundation.org/owf-learn-mkdocs/)
 documentation for more information about MkDocs.
 
 The TSTool software must be installed in order to run examples.
-See the [Open Water Foundation TSTool page](http://openwaterfoundation.org/software-tools/tstool).
+See the [Open Water Foundation TSTool page](https://openwaterfoundation.org/software-tools/tstool).
 
 ## Editing and Viewing Content ##
 
@@ -54,7 +54,7 @@ Contribute to the documentation as follows:
 
 ## Maintainers ##
 
-This repository is maintained by the [Open Water Foundation](http://openwaterfoundation.org/).
+This repository is maintained by the [Open Water Foundation](https://openwaterfoundation.org/).
 
 ## Contributors ##
 
