@@ -9,4 +9,4 @@ TSTool Examples
 
 | **Example** | **Description** |
 | -- | -- |
-| [Graph Lees Ferry Natural Flows](https://github.com/OpenWaterFoundation/owf-learn-tstool/examples/NaturalFlow/LeesFerry/) | Graph US Bureau of Reclamation Colorado River natural flows at Lees Ferry. |
+| [Graph Lees Ferry Natural Flows](https://github.com/OpenWaterFoundation/owf-learn-tstool/tree/main/examples/NaturalFlow/LeesFerry/) | Graph US Bureau of Reclamation Colorado River natural flows at Lees Ferry. |
