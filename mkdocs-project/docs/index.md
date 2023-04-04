@@ -2,32 +2,32 @@
 
 This documentation provides resources to learn how to to use the TSTool Software.
 TSTool is free software that provides time series analysis and workflow processing automation.
-TSTool also processes data from databases, Excel, and spatial data.
+TSTool processes data from databases, web services, files, Excel, spatial data, and other sources.
 TSTool is helpful when automating a complicated process or repeating a process multiple times.
-TSTool is being moved to open source licensing at which time all source code will also be available.
 
-This documentation has been written based on experience using TSTool at the Open Water Foundation (OWF),
-with focus on tasks that are useful in water resources and solutions.
+TSTool has been developed as a part of the State of Colorado's
+[OpenCDSS initiative](https://opencdss.state.co.us/)
+and is maintained by the Open Water Foundation.
 
-**This website version of documentation is initially being created to facilitate use by Colorado State University GRAD 592 students and
-will be updated over time to convert other versions of documentation to on-line version.
-The initial version is a bare minimum version to help GRAD 592 students with their projects.**
+This documentation has been written based on experience using TSTool at the Open Water Foundation (OWF).
 
 The remainder of this page contains the following sections:
 
-* [About the Open Water Foundation](#about-the-open-water-foundation)
-* [How to Use this Documentation](#how-to-use-this-documentation)
-* [License](#license)
-* [Source Repository on GitHub](#-source-repository-on-github)
-* [Release Notes](#release-notes)
+*   [About the Open Water Foundation](#about-the-open-water-foundation)
+*   [How to Use this Documentation](#how-to-use-this-documentation)
+*   [License](#license)
+*   [Source Repository on GitHub](#-source-repository-on-github)
+
+This documentation was last updated on 2023-04-04 for TSTool 14.7.0.
 
 --------------
 
 ## About the Open Water Foundation ##
 
-The [Open Water Foundation](https://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
-on developing and supporting open source software for water resources, so that organizations can make better decisions about water.
+The [Open Water Foundation](https://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that 
+develops open source software and open data solutions to make better decisions about water.
 OWF has created this documentation to educate its staff, collaborators, students, and clients that use TSTool for time series processing.
+Public access is provided to facilitate evaluation of TSTool.
 
 See also other [OWF learning resources](https://learn.openwaterfoundation.org).
 
@@ -35,25 +35,27 @@ See also other [OWF learning resources](https://learn.openwaterfoundation.org).
 
 The documentation is organized in order of information and tasks necessary to install TSTool and
 use TSTool software for common tasks.
+Two types of learning are envisioned:
 
-See also the existing PDF documentation that is installed with TSTool software (use the TSTool software ***Help*** menu to access).
-PDF documentation is available in the [Resources](resources) section.
+1.  Lessons with focused outcomes, which can be reviewed in order (see the [Lessons Overview](lessons/overview.md)).
+2.  Examples that can be accessed in any order based on a topic of interest (see the [Examples Overview](examples/overview.md)).
 
-The following lessons are included in this documentation:
+See also the [Resources](resources/resources.md),
+which has links to TSTool documentation and other training materials.
 
-* [1 - Quick Start](01-lesson-quick-start/lesson-quick-start)
-* [2 - Read CO HydroBase Web Service](02-lesson-read-co-hydrobase-ws/lesson-read-co-hydrobase-ws)
+The menu on left side of each page shows an overall table of contents.
+The menu on the right side of each page shows a table of contents for the page.
+The tables of content may be compressed into a menu in the upper left if the page is narrow.
+
+Use the search tool to find content in this documentation.
 
 ## License ##
 
 The OWF Learn TSTool website content and examples are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
-## Source Repository on GitHub
+## Source Repository on GitHub ##
 
 The source files for this documentation are maintained in a GitHub repository:  [owf-learn-tstool](https://github.com/OpenWaterFoundation/owf-learn-tstool).
 
-## Release Notes ##
-
-This documentation was last updated 2017-10-30.
-See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-tstool#release-notes).
+Access the example files in the GitHub repository.
