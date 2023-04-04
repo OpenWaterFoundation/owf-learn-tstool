@@ -18,7 +18,7 @@ The remainder of this page contains the following sections:
 *   [License](#license)
 *   [Source Repository on GitHub](#-source-repository-on-github)
 
-This documentation was last updated on 2023-04-04 for TSTool 14.7.0.
+**This documentation was last updated on 2023-04-04 using TSTool 14.7.0.**
 
 --------------
 
@@ -40,7 +40,7 @@ Two types of learning are envisioned:
 1.  Lessons with focused outcomes, which can be reviewed in order (see the [Lessons Overview](lessons/overview.md)).
 2.  Examples that can be accessed in any order based on a topic of interest (see the [Examples Overview](examples/overview.md)).
 
-See also the [Resources](resources/resources.md),
+See also the [Resources](resources.md),
 which has links to TSTool documentation and other training materials.
 
 The menu on left side of each page shows an overall table of contents.
