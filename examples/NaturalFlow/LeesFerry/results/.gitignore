@@ -1,0 +1,5 @@
+# Ignore files.
+/*
+!.gitignore
+!README.md
+!*.png

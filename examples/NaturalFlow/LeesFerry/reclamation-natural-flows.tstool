@@ -1,0 +1,26 @@
+CreateFolder(Folder="results",IfFolderExists="Ignore")
+StartLog(LogFile="results/reclamation-natural-flows.tstool.log")
+# Test visualizing Reclamation natural flows.
+#
+# First download data files.
+If(Name="If_Download",FileDoesNotExist="downloads/LFnatFlow1906-2022.2022.11.9_Corrected.xlsx")
+    CreateFolder(Folder="downloads",IfFolderExists="Ignore")
+    WebGet(URI="https://www.usbr.gov/lc/region/g4000/NaturalFlow/LFnatFlow1906-2022.2022.11.9_Corrected.xlsx",LocalFile="downloads/LFnatFlow1906-2022.2022.11.9_Corrected.xlsx")
+EndIf(Name="If_Download")
+# Read the Excel file into time series:
+# - first read into tables
+# - then convert to time series
+# - read water and calendar year into separate time series
+ReadTableFromExcel(TableID="ReclamationNaturalFlows_CalendarYear",InputFile="downloads\LFnatFlow1906-2022.2022.11.9_Corrected.xlsx",Worksheet="Calendar Year",ExcelAddress="A4:B120",ExcelIntegerColumns="Column1")
+ReadTableFromExcel(TableID="ReclamationNaturalFlows_WaterYear",InputFile="downloads\LFnatFlow1906-2022.2022.11.9_Corrected.xlsx",Worksheet="Water Year",ExcelAddress="A4:B120",ExcelIntegerColumns="Column1")
+TableToTimeSeries(TableID="ReclamationNaturalFlows_CalendarYear",DateColumn="Column1",LocationID="LeesFerry",ValueColumn="Column2",DataSource="USBR",DataType="NaturalFlow",Interval="Year",Scenario="CY-Corrected",Units="AF",Alias="%L-%T-%Z")
+TableToTimeSeries(TableID="ReclamationNaturalFlows_WaterYear",DateColumn="Column1",LocationID="LeesFerry",ValueColumn="Column2",DataSource="USBR",DataType="NaturalFlow",Interval="Year",Scenario="WY-Corrected",Units="AF",Alias="%L-%T-%Z")
+#
+# Calculate some statistics:
+# - 10 year running average
+# - full period N-year average
+RunningStatisticTimeSeries(TSList="FirstMatchingTSID",TSID="LeesFerry.USBR.NaturalFlow.Year.WY-Corrected",Statistic="Mean",SampleMethod="NYear",Bracket="10",Alias="%L-%T-WY-Corrected")
+RunningStatisticTimeSeries(TSList="FirstMatchingTSID",TSID="LeesFerry.USBR.NaturalFlow.Year.WY-Corrected",Statistic="Mean",SampleMethod="NAllYear",Alias="%L-%T-WY-Corrected")
+# 
+# Create a graph.
+ProcessTSProduct(TSProductFile="reclamation-natural-flows.tsp",OutputFile="results/reclmation-natural-flows.png")

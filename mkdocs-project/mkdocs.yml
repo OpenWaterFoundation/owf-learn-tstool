@@ -4,12 +4,14 @@
 #
 site_name: 'Learn / TSTool'
 nav:
-- Introduction: index.md
-#- Overview: overview.md
+- Home: index.md
 - Install TSTool: install-tstool.md
 - Lessons:
-  - '1 - Quick Start': '01-lesson-quick-start/lesson-quick-start.md'
-  - '2 - Read CO HydroBase Web Service': '02-lesson-read-co-hydrobase-ws/lesson-read-co-hydrobase-ws.md'
+  - 'Overview': 'lessons/overview.md'
+  - '1 - Quick Start': 'lessons/01-lesson-quick-start/lesson-quick-start.md'
+  - '2 - Read CO HydroBase Web Service': 'lessons/02-lesson-read-co-hydrobase-ws/lesson-read-co-hydrobase-ws.md'
+- Examples:
+  - 'Overview': 'examples/overview.md'
 - Resources: resources.md
 # ------- configuration properties ---------------
 # Alphabetize
@@ -29,7 +31,7 @@ extra:
 # ------------------------------------------------
 # Don't indicate the repo because Edit will be shown on every page (don't want that in deployed mode)
 # - Also see edit_uri if repo_url is specified
-#repo_url:  https://github.com/OpenWaterFoundation/owf-learn-qgis
+#repo_url:  https://github.com/OpenWaterFoundation/owf-learn-tstool
 site_author:  'Open Water Foundation'
 site_description:  'Open Water Foundation Learn TSTool'
 # ------------------------------------------------
