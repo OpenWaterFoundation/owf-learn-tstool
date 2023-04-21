@@ -1,8 +1,8 @@
 [Product]
 
 ProductType = "Graph"
-TotalWidth = "600"
-TotalHeight = "400"
+TotalWidth = "800"
+TotalHeight = "600"
 MainTitleString = "Lees Ferry Natural Flows"
 SubTitleString = "Water Years - USBR "Corrected""
 
